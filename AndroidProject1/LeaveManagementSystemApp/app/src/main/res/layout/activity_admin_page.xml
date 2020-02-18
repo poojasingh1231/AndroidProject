@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AdminPage">
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:background="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:id="@+id/img"/>
+
+
+    <EditText
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:id="@+id/edittext1"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:background="@drawable/color1"
+        android:layout_marginTop="120dp"
+        android:hint="Username"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"/>
+
+    <EditText
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:id="@+id/edittext2"
+        android:layout_gravity="center"
+
+        android:textSize="20dp"
+        android:background="@drawable/color1"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:hint="Password"/>
+
+    <Button
+        android:layout_width="370dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:onClick="admin"
+        android:id="@+id/button1"
+        android:textColor="#fff"
+        android:background="@drawable/round"
+        android:layout_marginTop="10dp"
+        android:text="Login"
+        android:textSize="25dp"/>
+
+
+
+</LinearLayout>

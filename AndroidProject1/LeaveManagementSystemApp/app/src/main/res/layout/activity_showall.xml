@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowallActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:titleTextColor="#FFF"
+        android:background="#007acc"
+        android:id="@+id/toolbarshow">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+
+        android:layout_marginLeft="140dp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:text="Employee Leave Details"/>
+
+</android.support.v7.widget.Toolbar>
+
+    <ListView android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/listview"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"> </ListView>
+
+</LinearLayout>
+
